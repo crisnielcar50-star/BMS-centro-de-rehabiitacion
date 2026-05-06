@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "name": "bms-rehabilitacion",
+  "builds": [
+    {
+      "src": "bms-rehabilitacion.html",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/",
+      "dest": "/bms-rehabilitacion.html"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/bms-rehabilitacion.html"
+    }
+  ]
+}
